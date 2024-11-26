@@ -1,0 +1,16 @@
+# File di configurazione sensibili
+.env  # File con variabili di ambiente (API keys, database, ecc.)
+
+*.conda/  # Se usi Conda
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Log e file temporanei
+*.log
+*.tmp
+
+# Configurazioni di editor
+.vscode/.DS_Store
