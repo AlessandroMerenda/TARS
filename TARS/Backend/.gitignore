@@ -30,3 +30,5 @@ Docs/*.pdf
 # Configurazioni dell'editor
 .vscode/
 .DS_Store
+
+Backend/TARS/
