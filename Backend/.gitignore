@@ -1,0 +1,34 @@
+# Directory generali e file temporanei
+*.pyc
+__pycache__/
+*.log
+
+# Ambiente virtuale
+.venv/
+env/
+*.env
+
+# Directory dei log
+logs/
+logs/*.log
+
+# Cache e temporanei
+.cache/
+*.egg-info/
+
+# Diagrammi e file generati
+Diagrams/*.png
+
+# File di configurazione del database
+Database/*.db
+Database/*.sqlite3
+
+# Escludi la documentazione generata
+Docs/*.html
+Docs/*.pdf
+
+# Configurazioni dell'editor
+.vscode/
+.DS_Store
+
+
