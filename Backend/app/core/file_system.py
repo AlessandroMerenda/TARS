@@ -1,8 +1,20 @@
 from fastapi import APIRouter, HTTPException
 import os
 import re
+import sys
+from Backend.logs.core_logger import get_logger
 
 router = APIRouter()
+
+logger = get_logger()
+
+def create_folder(path: str):
+    try:
+        os.makedirs(path, exist_ok=True)
+        logger.info(f"Cartella creata: {path}")
+    except Exception as e:
+        logger.error(f"Errore nella creazione della cartella: {e}")
+        raise
 
 
 
